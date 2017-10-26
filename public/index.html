@@ -15,6 +15,11 @@
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
 
+    <!--Material Design Lite-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
@@ -22,26 +27,26 @@
     <h2>Welcome</h2>
     <h1>This is the hub for Rethink Apps</h1>
     <p>Here, you can access all of my current projects and apps</p>
-    <div class="project-link" id="emuapp">
-        <a target="_blank" href="https://play.google.com/store/apps/details?id=edu.emuapps.emuapplite">EMU Menu App</a>
-        <br>
-        <span>Menu browser for Eastern Mennonite University</span>
-    </div>
-    <div class="project-link" id="tipster">
-        <a target="_blank" href="/tipster">Tipster</a>
-        <br>
-        <span>Calculate tips quickly</span>
-    </div>
-    <div class="project-link" id="dm-comm">
-        <a target="_blank" href="/dm-comm">Dungeon Master Communicator</a>
-        <br>
-        <span>Communicate quickly with your DnD Dungeon Master</span>
-    </div>
-    <div class="project-link" id="drop">
-        <a target="_blank" href="/drop">Drop</a>
-        <br>
-        <span>Location-based image sharing platform</span>
-    </div>
+    <a id="emuapp"
+       href="https://play.google.com/store/apps/details?id=edu.emuapps.emuapplite"
+       class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+        EMU Menu App
+    </a>
+    <a id="tipster"
+       href="/tipster"
+       class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+        Tipster
+    </a>
+    <a id="dm-comm"
+       href="/dm-comm"
+       class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+        Dungeon Master Communicator
+    </a>
+    <a id="drop"
+       href="/drop"
+       class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+        Drop
+    </a>
 </div>
 
 <script>
